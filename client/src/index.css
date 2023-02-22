@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #1d1d1d;
+}
+/*Nav Bar styling*/
+.navbar {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+  background-color: antiquewhite;
+}
+
+.navbar .links {
+  margin-left: auto;
+  display: flex;
+}
+
+.navbar h1 a {
+  color: orange;
+}
+
+.navbar a {
+  margin-left: 15px;
+  border: none;
+  padding: 10px;
+  text-decoration: none;
+
+}
+
+.navbar a:hover {
+  color: orange;
+  border-bottom: 1px solid orange;
+}
+
+.content {
+  margin: 20px auto;
+  padding: 10px;
+  max-width: 900px;
+
+}
+
